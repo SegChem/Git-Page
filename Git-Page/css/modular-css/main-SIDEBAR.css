@@ -1,0 +1,48 @@
+/*Se recomienda antes de importar este archivo, haber importado main.css
+archivo ubicado en /css/modular-css/main.css*/
+/*Para que funcionen los estilos deberían estar dentro de un contenedor con display flex*/
+.main-Sidebar-Container{
+    background-color: #619eb3;
+    width: 320px;
+}
+
+.main-Sidebar-Container > .nav-Search{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-Sidebar-Container > .nav-Search > .navText{
+    height: 45px;
+    width: 304px;
+    border: none;
+    border-radius: 0;
+    border: none;
+    margin:0;
+}
+.main-Sidebar-Container > .nav-Search > .navButton{
+    display: flex;
+    height: 45px;
+    width: auto;
+    justify-content: center;
+    border: none;
+    border-radius: 0;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+.main-Sidebar-Container > .nav-Search > .navButton > p{
+    margin: auto;
+    border: none;
+}
+
+/*Hover*/
+.main-Sidebar-Container > .nav-Search > .navButton:hover{
+    background-color: #1B343C;
+    cursor: pointer;
+}
+.main-Sidebar-Container > .nav-Search > .navButton > img{
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

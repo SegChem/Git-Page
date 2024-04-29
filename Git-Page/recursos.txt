@@ -1,0 +1,14 @@
+fuentes:
+
+<a href="https://www.flaticon.es/iconos-gratis/usuario" title="usuario iconos">Usuario iconos creados por Freepik - Flaticon</a>
+By Freepik
+
+L
+
+
+los colores estan dentro de cada SVG en el atributo Stroke
+
+
+SVG
+
+https://www.svgrepo.com/
